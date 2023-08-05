@@ -3230,10 +3230,6 @@ data:extend({
         type = "unlock-recipe",
         recipe = "nullius-geothermal-plant-1"
       },
-      {
-        type = "unlock-recipe",
-        recipe = "nullius-stirling-engine-1"
-      }
     },
     unit = {
       count = 120,
@@ -3597,6 +3593,10 @@ data:extend({
       {
         type = "unlock-recipe",
         recipe = "nullius-thermal-tank-1"
+      }
+      {
+        type = "unlock-recipe",
+        recipe = "nullius-stirling-engine-1"
       }
     },
     unit = {
