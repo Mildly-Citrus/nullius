@@ -88,19 +88,6 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "nullius-void-caustic-solution",
-    icons = data.raw.fluid["nullius-caustic-solution"].icons,
-    crafting_machine_tint = { primary = data.raw.fluid["nullius-caustic-solution"].flow_color },
-    category = "nullius-liquid-void",
-    subgroup = "nullius-liquid-void",
-    hide_from_player_crafting = true,
-	hide_from_stats = true,
-    energy_required = 1,
-    ingredients = {{type="fluid", name="nullius-caustic-solution", amount=100}},
-    results = {{type="item", name="nullius-liquid-void", amount=1, probability=0}}
-  },
-  {
-    type = "recipe",
     name = "nullius-void-calcium-chloride-solution",
     icons = data.raw.fluid["nullius-calcium-chloride-solution"].icons,
     crafting_machine_tint = { primary = data.raw.fluid["nullius-calcium-chloride-solution"].flow_color },
